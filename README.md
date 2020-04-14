@@ -1,3 +1,5 @@
+![gama](https://user-images.githubusercontent.com/40298927/79284752-f987b680-7e91-11ea-9abe-b9fde9fd8527.png)
+
 Desafio: Página de Notícias do COVID-19 GAMA ACADEMY
 
 Todo mundo pronto para colocar a mão na massa? :)
