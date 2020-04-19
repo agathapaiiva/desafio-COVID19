@@ -1,8 +1,5 @@
 * {
-    box-sizing: border-box;
-    
-  /*  overflow-x: hidden;*/
-   
+    box-sizing: border-box;   
   }
 
   /* CSS para outras resoluções*/
@@ -78,7 +75,6 @@
         display: contents !important;
     }
 
-    
     .imgDestaque{
         width: 100%;
     }
