@@ -32,6 +32,10 @@
     .grid-container{
         display: contents !important;
     }
+
+    .contato-iframe{
+        margin-left: auto !important;
+    }
 }
 
  @media screen and (min-width: 768px) and (max-width: 1024px){
@@ -47,6 +51,10 @@
 
     .grid-container{
         display: contents !important;
+    }
+
+    .contato-iframe{
+        margin-left: auto !important;
     }
 
 }
@@ -76,6 +84,10 @@
         grid-gap: 5px !important;
         padding: 1px !important;
     }
+
+    .contato-iframe{
+        margin-left: auto !important;
+    }
         
 }
 
@@ -96,6 +108,10 @@
     
     iframe{
         width: 100%;
+    }
+
+    .contato-iframe{
+        margin-left: auto !important;
     }
         
 }
@@ -277,3 +293,26 @@ th, td {
 }
 
 tr:hover {background-color: #d3d3d3;}
+
+
+
+/* página de contato*/
+
+.contato{
+    background-color: #ffffff6e;
+    background-image: url(imagens/background.png);
+    background-position: bottom;
+    border-radius: 4px;
+}
+
+.titulo-contato{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contato-iframe{
+  margin-left: 35%;
+}
