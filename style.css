@@ -20,13 +20,17 @@
         width: 100%;
     }
 
-    .imgDestaque{
+    .imgDestaque, .img-perfil{
         width: 100%;
     }
 
     .button-video, .button-audio, .button-img, .audio{
         margin-top: 0px !important;
         font-size: 12px !important;
+    }
+
+    .grid-container{
+        display: contents !important;
     }
 }
 
@@ -39,6 +43,10 @@
     .button-video, .button-audio, .audio{
         margin-top: 0px;
             
+    }
+
+    .grid-container{
+        display: contents !important;
     }
 
 }
@@ -61,6 +69,12 @@
     
     iframe{
         width: 100%;
+    }
+
+    .grid-container{
+        grid-template-columns: min-content !important;
+        grid-gap: 5px !important;
+        padding: 1px !important;
     }
         
 }
@@ -85,7 +99,6 @@
     }
         
 }
-
 
 
 body{
@@ -184,3 +197,83 @@ footer {
     border-radius: 5px;
     
 }
+
+/*página sobre*/
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+    background-color: rgb(235, 235, 235);
+    grid-gap: 5px;
+    padding: 1px;
+}
+
+
+.grid-container > div {
+    padding: 1px;
+    align-content: center;
+    margin: 15px;
+}
+
+.item1{
+    grid-area:1 / 1;
+}
+
+.item3{
+
+    grid-area: 2 / 1;
+}
+
+.item4{
+    grid-area: 2 / 2;
+}
+
+  .button-sobre{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #a72734;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.css-base{
+    text-align: center;
+}
+
+.aSobre {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.aContato{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+
+.table-titulo{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.table-sobre{
+    border-collapse: collapse;
+    width: 100%; 
+    overflow-x:auto;
+}
+
+th, td {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 1%;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: #d3d3d3;}
