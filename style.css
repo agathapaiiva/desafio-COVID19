@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+  }
+
+  /* CSS para outras resoluções*/
+
+@media only screen and (min-width: 320px) and (max-width: 812px){
+    .col-12 ul{
+        display: grid;
+    }
+
+    .cards{
+        display: block !important;
+    }
+    .cards > div{
+        display: block !important;
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+    .imgDestaque{
+        width: 100%;
+    }
+
+    .button-video, .button-audio, .button-img, .audio{
+        margin-top: 0px !important;
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .col-12 ul{
+        display: flex;
+    }
+
+    .button-video, .button-audio, .audio{
+        margin-top: 0px;
+        
+    }
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f1f1f1;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header {
+    padding: 5%;
+    color: white;
+    font-size: 30px;
+    background-image: url(imagens/img12.jpg);
+    background-position: right;
+    border-radius: 5px;  
+}
+
+ul{
+    list-style-type: none;
+    background-color: #012f46;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+li a:hover:not(.active) {
+    background-color:rgba(255, 255, 255, 0.281);
+    border-radius: 4px;
+  }
+  
+  .active {
+    background-color: rgb(167, 39, 52);
+    border-radius: 4px;
+  }
+
+.cards{
+    display: flex;
+}
+
+.cards > div{
+    margin: 10px;
+    padding: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+.audio{
+    margin-top: 100px
+}
+
+.button-img, .button-video, .button-audio{
+    background-color: #a72734;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-video{
+   margin-top: 90px;
+}
+
+.button-audio{
+    margin-top: 65px;
+}
+
+footer {
+    width: 100%;
+    background-color: #012f46e0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
