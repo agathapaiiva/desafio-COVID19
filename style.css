@@ -36,6 +36,19 @@
     .contato-iframe{
         margin-left: auto !important;
     }
+
+    .flex-container-saibaMais{
+        display: block !important;
+    }
+
+    .card-saibamais{
+        width: 100% !important;
+    }
+
+    .img-saibaMais{
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
 }
 
  @media screen and (min-width: 768px) and (max-width: 1024px){
@@ -57,7 +70,24 @@
         margin-left: auto !important;
     }
 
+    .flex-container-saibaMais{
+        display: block;
+    }
+
+    .flex-container-saibaMais{
+        display: block !important;
+    }
+
+    .card-saibamais{
+        width: 100% !important;
+    }
+
+    .img-saibaMais{
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
 }
+
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
     body{
@@ -88,8 +118,21 @@
     .contato-iframe{
         margin-left: auto !important;
     }
-        
+
+    .flex-container-saibaMais{
+        display: block !important;
+    }
+
+    .card-saibamais{
+        width: 100% !important;
+    }
+
+    .img-saibaMais{
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
 }
+        
 
 @media screen and (min-width: 1440px) and (max-width: 1920px){
     body{
@@ -113,7 +156,19 @@
     .contato-iframe{
         margin-left: auto !important;
     }
-        
+
+    .flex-container-saibaMais{
+        display: block !important;
+    }
+
+    .card-saibamais{
+        width: 100% !important;
+    }
+
+    .img-saibaMais{
+        width: 100% !important;
+        margin: auto !important;
+    }      
 }
 
 
@@ -315,4 +370,37 @@ tr:hover {background-color: #d3d3d3;}
 
 .contato-iframe{
   margin-left: 35%;
+}
+
+
+/* página de saiba mais*/
+
+.flex-container-saibaMais{
+    display: flex;
+}
+
+.card-saibamais {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 5px;
+    width: 30% 
+}
+
+.button-saibaMais{
+    background-color: #a72734;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.img-saibaMais{
+    margin-left: 20px;
+    padding: 5px;
 }
